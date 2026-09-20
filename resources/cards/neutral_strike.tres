@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"neutral_strike"
+display_name = "Strike"
+description = "Colourless damage - never resisted, never super effective."
+icon_path = ""
+element = 0
+mana_cost = 1
+effect_type = 0
+target_mode = 0
+power = 5
+status_kind = 0
+status_potency = 0
+status_duration = 0
+upgrade_level = 0
+rarity = 1

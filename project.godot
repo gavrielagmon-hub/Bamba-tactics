@@ -1,0 +1,26 @@
+; Godot 4 project file for the Bamba-style tactical card RPG.
+; Open the containing folder with the Godot 4 project manager ("Import").
+
+config_version=5
+
+[application]
+
+config/name="Bamba Tactics"
+run/main_scene="res://scenes/BattleDemo.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[autoload]
+
+; Order matters: CardLibrary must exist before any battle asks for a card.
+CardLibrary="*res://autoload/CardLibrary.gd"
+NetworkManager="*res://autoload/NetworkManager.gd"
+
+[display]
+
+window/size/viewport_width=1152
+window/size/viewport_height=648
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"neutral_focus"
+display_name = "Focus"
+description = "Free to queue, refunds energy when it resolves. Enables a big slot 2 or 3."
+icon_path = ""
+element = 0
+mana_cost = 0
+effect_type = 4
+target_mode = 1
+power = 2
+status_kind = 0
+status_potency = 0
+status_duration = 0
+upgrade_level = 0
+rarity = 2

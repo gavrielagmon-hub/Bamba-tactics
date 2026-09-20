@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"ice_bolt"
+display_name = "Ice Bolt"
+description = "Damage plus Chill: the target refills one less energy next turn."
+icon_path = ""
+element = 2
+mana_cost = 2
+effect_type = 0
+target_mode = 0
+power = 6
+status_kind = 2
+status_potency = 1
+status_duration = 2
+upgrade_level = 0
+rarity = 1

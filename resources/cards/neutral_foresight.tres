@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"neutral_foresight"
+display_name = "Foresight"
+description = "Draws two cards mid-plan, so later slots can use what you just drew."
+icon_path = ""
+element = 0
+mana_cost = 1
+effect_type = 5
+target_mode = 1
+power = 2
+status_kind = 0
+status_potency = 0
+status_duration = 0
+upgrade_level = 0
+rarity = 2

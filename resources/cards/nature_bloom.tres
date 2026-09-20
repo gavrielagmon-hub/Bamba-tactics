@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"nature_bloom"
+display_name = "Bloom"
+description = "Heal now, heal again for two more turns."
+icon_path = ""
+element = 3
+mana_cost = 2
+effect_type = 1
+target_mode = 1
+power = 8
+status_kind = 5
+status_potency = 2
+status_duration = 2
+upgrade_level = 0
+rarity = 2

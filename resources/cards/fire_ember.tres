@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"fire_ember"
+display_name = "Ember"
+description = "A quick jab of flame. Cheap enough to fit beside two other actions."
+icon_path = ""
+element = 1
+mana_cost = 1
+effect_type = 0
+target_mode = 0
+power = 4
+status_kind = 0
+status_potency = 0
+status_duration = 0
+upgrade_level = 0
+rarity = 1

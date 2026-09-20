@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"fire_inferno"
+display_name = "Inferno"
+description = "Your whole turn in one slot. Devastating against Nature decks."
+icon_path = ""
+element = 1
+mana_cost = 3
+effect_type = 0
+target_mode = 0
+power = 12
+status_kind = 1
+status_potency = 3
+status_duration = 3
+upgrade_level = 0
+rarity = 3

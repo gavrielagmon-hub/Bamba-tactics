@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/CardData.gd" id="1_carddata"]
+
+[resource]
+script = ExtResource("1_carddata")
+id = &"ice_frostbite"
+display_name = "Frostbite"
+description = "No damage at all - it simply deletes the opponent's first action slot."
+icon_path = ""
+element = 2
+mana_cost = 2
+effect_type = 3
+target_mode = 0
+power = 0
+status_kind = 3
+status_potency = 1
+status_duration = 1
+upgrade_level = 0
+rarity = 3
